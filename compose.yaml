@@ -1,0 +1,12 @@
+﻿services:
+  service-lifetimes:
+    image: service-lifetimes
+    container_name: service-lifetimes
+    build:
+      context: .
+      dockerfile: ServiceLifetimes/Dockerfile
+    ports:
+      - name: "ContainerPort"
+        protocol: tcp
+        published: 8080
+        target: 8080
