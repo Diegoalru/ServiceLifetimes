@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DefineConstants>TRANSIENT;SCOPED;SINGLETON</DefineConstants>
     </PropertyGroup>
 
     <ItemGroup>
